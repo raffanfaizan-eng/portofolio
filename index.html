@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portofolio Raffan Ilham - web developer dan UI/UX enthusiast." />
+    <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="gbt1.css?v=20260730-2" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <a href="#home" class="brand">Portofolio</a>
+        <button class="nav-toggle" aria-label="Buka menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#projects">Proyek</a></li>
+          <li><a href="#skills">Skill</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero container">
+        <div class="hero-copy">
+          <p class="eyebrow">Selamat datang di portofolio saya</p>
+          <h1>
+            Hai, saya <span id="name">Raffan Ilham</span>
+          </h1>
+          <p id="tagline" class="tagline"></p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">Lihat Proyek</a>
+            <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+          </div>
+          <ul class="hero-highlights">
+            <li>Web Developer</li>
+            <li>UI/UX Enthusiast</li>
+            <li>Fast Learner</li>
+          </ul>
+        </div>
+
+        <div class="hero-card">
+          <img id="profile-image" src="assets/PHOTO-2026-07-30-02-20-29.jpg" alt="Foto profil portofolio" />
+          <div class="hero-card-body">
+            <h3>Siap membuat ide Anda hidup</h3>
+            <p>Website modern, cepat, dan mudah digunakan.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section container">
+        <div class="section-title">
+          <p>Tentang Saya</p>
+          <h2>Bangun pengalaman digital yang menarik</h2>
+        </div>
+        <div class="about-grid">
+          <div>
+            <p id="about-text"></p>
+          </div>
+          <div class="info-card">
+            <h3>Informasi Singkat</h3>
+            <ul id="info-list"></ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section container">
+        <div class="section-title">
+          <p>Proyek</p>
+          <h2>Beberapa karya yang pernah saya buat</h2>
+        </div>
+        <div id="projects-grid" class="project-grid"></div>
+      </section>
+
+      <section id="skills" class="section container">
+        <div class="section-title">
+          <p>Skill</p>
+          <h2>Teknologi yang sering saya gunakan</h2>
+        </div>
+        <div id="skills-grid" class="skills-grid"></div>
+      </section>
+
+      <section id="contact" class="section container">
+        <div class="contact-card">
+          <h2>Siap bekerja sama?</h2>
+          <p>Jika Anda ingin membuat website modern, saya siap membantu.</p>
+          <a id="email-link" class="btn btn-primary" href="mailto:raffanfaizan@email.com">Kirim Email</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> <span id="name-footer"></span>. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="gbt1.js?v=20260730-2"></script>
+  </body>
+</html>
